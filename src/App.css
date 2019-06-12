@@ -1,0 +1,19 @@
+body {
+  font-family: "Open Sans", sans-serif !important;
+}
+
+.text-slanted {
+  font-family: "Shojumaru", cursive;
+}
+.App {
+  background-image: linear-gradient(
+    to right,
+    #183d80,
+    #3d5996,
+    #5e76ac,
+    #7e95c2,
+    #a0b4d8
+  );
+  height: 100;
+  background-repeat: repeat;
+}
