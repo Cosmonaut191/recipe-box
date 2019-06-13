@@ -11,7 +11,7 @@ export default class h1 extends Component {
             background: "#051839"
           }}
         >
-          <a className="navbar-brand text-primary ">
+          <div className="navbar-brand text-primary ">
             <div
               style={{
                 color: "green",
@@ -34,17 +34,20 @@ export default class h1 extends Component {
                 }}
               />
             </div>
-          </a>
+          </div>
           <form class="form-inline my-2 my-lg-0" onSubmit={handleSubmit}>
             <input
-              class="form-control mr-sm-2"
+              className="form-control mr-sm-2"
               type="search"
               placeholder="chicken,onion,tomato"
               aria-label="Search"
               value={value}
               onChange={handleChange}
             />
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            <button
+              className="btn btn-outline-success my-2 my-sm-0"
+              type="submit"
+            >
               Search
             </button>
           </form>

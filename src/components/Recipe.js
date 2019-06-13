@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import { Button, Card } from "antd";
-const { Meta } = Card;
+// import { Button, Card } from "antd";
+// const { Meta } = Card;
 
 export default class Recipe extends Component {
   render() {
@@ -8,8 +8,8 @@ export default class Recipe extends Component {
 
     return (
       <>
-        <div className="col-8 mx-auto col-md-6 col-lg-4 my-3">
-          <Card
+        <div className="col-11 mx-auto col-md-6 col-lg-4 my-3">
+          {/* <Card
             headStyle={{ background: "#183D80", textEmphasis: "white" }}
             bordered
             size="small"
@@ -41,9 +41,9 @@ export default class Recipe extends Component {
             ]}
           >
             <Meta title={title} description={publisher} />
-          </Card>
+          </Card> */}
 
-          {/* <div className="card border-dark shadow-lg">
+          <div className="card border-dark shadow-lg">
             <img
               src={image_url}
               style={{ height: "14rem" }}
@@ -60,19 +60,21 @@ export default class Recipe extends Component {
               <button
                 type="button"
                 className="btn btn-outline-primary text-capitalize btn-sm"
+                onClick={this.props.handleDetails}
               >
                 Details
               </button>
-              <Button>Sushil</Button>
 
               <a
                 href={source_url}
                 className="btn btn-outline-success ml-5 btn-sm text-capitalize"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                recipe url
+                recipe
               </a>
             </div>
-          </div> */}
+          </div>
         </div>
       </>
     );
