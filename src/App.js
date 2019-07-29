@@ -67,7 +67,8 @@ class App extends Component {
           url: `https://www.food2fork.com/api/search?key=6646a5373bde4ec9a9785a6820c8cda5&q=${
             this.state.search
           }`,
-          search: ""
+          search: "",
+          error: ""
         };
       },
       () => {

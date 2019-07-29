@@ -11,7 +11,7 @@ export default class h1 extends Component {
             background: "#051839"
           }}
         >
-          <div className="navbar-brand text-primary ">
+          <div className="navbar-brand text-primary " onClick={handleSubmit}>
             <div
               style={{
                 color: "green",
