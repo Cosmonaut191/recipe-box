@@ -2,6 +2,8 @@
 
 ### Live Demo: http://recipebox.netlify.com
 
+### Note: 50 API requests per day. 
+
 ### About
 Web app that call FoodtoFork API to get search result data that can br filtered/sorted. The default or the cover pages displays a list of popular recipes.
 
